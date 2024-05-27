@@ -1,0 +1,29 @@
+{
+  "messages": [
+    {
+      "header": "New lo-fi ideas",
+      "status": "scheduled",
+      "date": "8/6/23"
+    },
+    {
+      "header": "Exploring melodies",
+      "status": "sent",
+      "date": "8/12/23"
+    },
+    {
+      "header": "A new guitar solo",
+      "status": "sent",
+      "date": "8/26/23"
+    },
+    {
+      "header": "Layering vocals",
+      "status": "sent",
+      "date": "1/12/23"
+    },
+    {
+      "header": "Testing reverbs",
+      "status": "sent",
+      "date": "7/26/23"
+    }
+  ]
+}

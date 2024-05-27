@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "SongShare.io Vol 16: Frank Ocean's Blonde",
+      "genre": "R&B/Soul",
+      "description": "Dive deep into the introspective and ethereal world of Frank Ocean's 'Blonde'. This critically acclaimed album blends R&B, soul, and avant-garde pop, exploring themes of love, identity, and self-discovery.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "SongShare.io Vol 15: New Indie Waves",
+      "genre": "Indie",
+      "description": "Discover the latest indie tracks making waves this week. From fresh sounds to underground hits, dive into the world of indie music.",
+      "imageUrl": "https://i.scdn.co/image/ab67706f000000028cd7aa1b753890103e3cd561"
+    },
+    {
+      "id": 3,
+      "title": "SongShare.io Vol 14: Electronic Horizons",
+      "genre": "Electronic",
+      "description": "Explore the newest frontiers in electronic music. This volume features cutting-edge beats and ambient soundscapes.",
+      "imageUrl": "https://f4.bcbits.com/img/0034455748_0"
+    },
+    {
+      "id": 4,
+      "title": "SongShare.io Vol 13: Hip-Hop Highlights",
+      "genre": "Hip-Hop",
+      "description": "Catch up with the hottest hip-hop tracks. From lyrical genius to hard-hitting beats, these are the songs defining the genre.",
+      "imageUrl": "https://i.ytimg.com/vi/BT_83vSP1es/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB4L252Pxpg9l_Zz63QCqZVM0AT6w"
+    },
+    {
+      "id": 5,
+      "title": "SongShare.io Vol 12: Acoustic Gems",
+      "genre": "Acoustic",
+      "description": "Unwind with this collection of acoustic gems. These tracks showcase the beauty of stripped-down performances and heartfelt lyrics.",
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b273e1d47c00ddecbfb810c807ed"
+    }
+  ]
+}
