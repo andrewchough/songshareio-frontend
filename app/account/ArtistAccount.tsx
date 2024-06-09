@@ -6,7 +6,7 @@ interface ArtistAccountProps {
 
 export default function ArtistAccount({ setCurrentPane }: ArtistAccountProps) {
   return (
-    <div className="mt-6">
+    <div className="my-6">
       <div className="h-[300px] w-[347px] rounded-[28px] border border-black bg-[#C9DEF7]" />
       <h1 className="mt-4 w-full text-center text-xl font-bold">
         Connect with your fans

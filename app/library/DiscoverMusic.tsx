@@ -5,15 +5,22 @@ import contentData from "@/test-data/music-library.json";
 
 interface DiscoverMusicProps {
   setCurrentPane: (pane: string) => void;
+  setSelectedSong: (song: number) => void;
 }
 
-export default function DiscoverMusic({ setCurrentPane }: DiscoverMusicProps) {
+export default function DiscoverMusic({
+  setCurrentPane,
+  setSelectedSong,
+}: DiscoverMusicProps) {
   return contentData.songs.map((song) =>
     song.id === 1 ? (
       <div
         key={song.id}
         className="mt-6 flex cursor-pointer items-start justify-center gap-x-4 px-4"
-        onClick={() => setCurrentPane("featuredSong")}
+        onClick={() => {
+          setCurrentPane("songPane");
+          setSelectedSong(song.id);
+        }}
       >
         <img
           src={song.imageUrl}
@@ -30,9 +37,13 @@ export default function DiscoverMusic({ setCurrentPane }: DiscoverMusicProps) {
       <div
         key={song.id}
         className={classNames(
-          `mt-6 flex w-full gap-x-4 px-4`,
+          `mt-6 flex w-full cursor-pointer gap-x-4 px-4`,
           song.id === contentData.songs.length ? `mb-6` : "",
         )}
+        onClick={() => {
+          setCurrentPane("songPane");
+          setSelectedSong(song.id);
+        }}
       >
         <img
           src={song.imageUrl}

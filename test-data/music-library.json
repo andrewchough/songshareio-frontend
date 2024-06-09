@@ -12,6 +12,7 @@
       "id": 2,
       "title": "Magnetic",
       "artist": "ILLIT",
+      "description": "Magnetic is at its best when pulsing along this brisk energy, offering a pleasant burst of lightweight pop sweetness. It’s not the most dynamic of arrangements, making it feel more like the soundtrack of a video game than a fully fleshed out title track.",
       "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f037c5fb9de6c78726cb8e2c",
       "genre": "K-Pop"
     },
@@ -19,6 +20,7 @@
       "id": 3,
       "title": "Not Like Us",
       "artist": "Kendrick Lamar",
+      "description": "It’s almost mad to think that ‘Not Like Us’ will be one of the anthems of the summer, with the image of beaches and pool parties filled with people jiving to Drake’s downfall, the same man who has soundtracked many summers in his time. As mentioned prior, Kendrick played this whole game near perfectly, but he had to.",
       "imageUrl": "https://i1.sndcdn.com/artworks-oOWO4BXm749P-0-t500x500.jpg",
       "genre": "Hip-Hop"
     },
@@ -26,6 +28,7 @@
       "id": 4,
       "title": "Espresso",
       "artist": "Sabrina Carpenter",
+      "description": "In this way “Espresso” recalls the ESL lingo of so many ’80s Italo-disco records, whose words evoke feeling more than denote meaning. But Carpenter also has a perfect turn of phrase with “Walked in and dream-came-trued it for ya,” the kind of line that most pop writers will spend their careers trying to come up with.",
       "imageUrl": "https://i.scdn.co/image/ab67616d0000b273659cd4673230913b3918e0d5",
       "genre": "Pop"
     }

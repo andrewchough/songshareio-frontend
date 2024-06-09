@@ -27,22 +27,13 @@ export default function Navbar({
           className="cursor-pointer"
         />
       </div>
-      {isMenuOpen ? (
+      {isMenuOpen && (
         <img
           src="/logos/close.svg"
           alt="Close icon"
           width={24}
           height={24}
           onClick={() => onMenuClick(false)}
-          className="cursor-pointer"
-        />
-      ) : (
-        <img
-          src="/logos/hamburger-menu.svg"
-          alt="Hamburger Menu"
-          width={24}
-          height={24}
-          onClick={() => onMenuClick(true)}
           className="cursor-pointer"
         />
       )}

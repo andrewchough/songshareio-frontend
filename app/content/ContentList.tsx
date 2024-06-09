@@ -5,15 +5,22 @@ import contentData from "@/test-data/content-management.json";
 
 interface ContentListProps {
   setCurrentPane: (pane: string) => void;
+  setSelectedArticle: (articleId: number) => void;
 }
 
-export default function ContentList({ setCurrentPane }: ContentListProps) {
+export default function ContentList({
+  setCurrentPane,
+  setSelectedArticle,
+}: ContentListProps) {
   return contentData.articles.map((article) =>
     article.id === 1 ? (
       <div
         key={article.id}
         className="mt-6 flex cursor-pointer items-start justify-center gap-x-4 px-4"
-        onClick={() => setCurrentPane("featuredArticle")}
+        onClick={() => {
+          setCurrentPane("article");
+          setSelectedArticle(article.id);
+        }}
       >
         <img
           src={article.imageUrl}
@@ -30,9 +37,13 @@ export default function ContentList({ setCurrentPane }: ContentListProps) {
       <div
         key={article.id}
         className={classNames(
-          `mt-6 flex w-full gap-x-4 px-4`,
+          `mt-6 flex w-full cursor-pointer gap-x-4 px-4`,
           article.id === contentData.articles.length ? `mb-6` : "",
         )}
+        onClick={() => {
+          setCurrentPane("article");
+          setSelectedArticle(article.id);
+        }}
       >
         <img
           src={article.imageUrl}
